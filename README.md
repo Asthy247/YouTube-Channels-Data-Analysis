@@ -1,12 +1,14 @@
 # YouTube-Channels-Data-Analysis
 # Introduction:
 This project explores a dataset containing information about YouTube channels, sourced from Kaggle: 
+
 **Link to dataset: **https://www.kaggle.com/datasets/rahuldogra/top5000youtubechannels?select=top-5000-youtube-channels.csv.  
+
 The dataset is on the top 5000 YouTube channel dataset.
 We aim to analyze key channel metrics and identify potential relationships between them.
 
 # Data Acquisition and Libraries:
-The dataset, "top-5000-youtube-channels.csv," was downloaded from Kaggle. 
+The dataset, "top-5000-youtube-channels.csv," was downloaded from Kaggle website. 
 Python libraries pandas (pd) and seaborn (sns) were used for data manipulation and visualization.
 # Data Description:
 The dataset consists of 5,000 rows (channels) and 6 columns containing the following information:
@@ -39,6 +41,7 @@ skewed distribution with potentially a few channels having a very high number of
 # 1.	Correlation	
 ![image](https://github.com/user-attachments/assets/58e9974a-512a-4ccf-8216-f9b9de71ce70)
 
+
 **Interpreting the Results:**
 These correlations provide valuable insights into the YouTube channel ecosystem:
 
@@ -67,14 +70,18 @@ The answer, based on the visualization, is yes. Higher-graded channels tend to u
 
 # 4.	Analyzing the Relationship Between Grade and Subscribers
 The plot below addresses the question: "How does the grade of a YouTube channel impact its subscriber count?"
+
 Grade as a Strong Indicator of Popularity: Higher-graded channels tend to have significantly more subscribers. 
 This suggests that the grading system effectively categorizes channels based on their popularity and engagement.
 
 ![image](https://github.com/user-attachments/assets/0e725538-a8ac-47f8-a763-6ae85ce909e3)
+
 Channels with higher grades likely produce high-quality content, consistent uploads, and effective marketing strategies, which contribute to increased subscriber growth.
 # Recommendations
 Based on the analysis of the YouTube channel dataset, we can provide the following recommendations:
-**•	Quality Over Quantity:** While a higher number of videos can contribute to increased viewership, focusing on producing high-quality content that resonates with the target audience is crucial.
+
+**•	Quality Over Quantity:** While a higher number of videos can contribute to increased viewership, 
+focusing on producing high-quality content that resonates with the target audience is crucial.
 
 **•	Consistent Uploading Schedule**: Maintaining a consistent upload schedule helps to build a loyal audience and improve discoverability.
 
